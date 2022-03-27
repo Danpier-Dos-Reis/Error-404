@@ -1,15 +1,78 @@
-.body{
-    margin: none;
-    padding: none;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: sans-serif;
+    padding: 2em 2em;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #B2DBD3A3;
+    box-shadow: 0 0 8px 0;
+    float: inline-end;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
 }
 
 .container{
-    margin-left: 10em;
+    margin: 4em 10em 0em  10em;
     justify-content: space-evenly;
     display: flex;
 }
 
-.image img{
-    height: 250px;
-    width: 250px;
+.image{
+    margin: 5em;
+    padding: 0;
+}
+
+.content{
+    margin: 5em 5em 5em 0em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: sans-serif;
+}
+
+.content h1{
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.content p{
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.content a button{
+    padding: 2em;
+    color: black;
+    background-color: #B2DBD3A3;
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 6em 0 6em;
+    cursor: pointer;
+}
+
+.content a button:hover{
+    color: blueviolet;
+}
+
+@media screen and (max-width: 40em){
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .content{
+        margin-left: 4em;
+    }
+
 }
