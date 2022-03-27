@@ -1,0 +1,15 @@
+.body{
+    margin: none;
+    padding: none;
+}
+
+.container{
+    margin-left: 10em;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.image img{
+    height: 250px;
+    width: 250px;
+}
