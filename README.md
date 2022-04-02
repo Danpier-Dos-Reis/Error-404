@@ -61,5 +61,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@Danpier-Dos-Reis](https://{github.com/Danpier-Dos-Reis})
+- Website http://prueba05chiletienda.infinityfreeapp.com/Page_404/
+- GitHub [@Danpier-Dos-Reis](https://github.com/Danpier-Dos-Reis)
